@@ -1,0 +1,35 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sat Feb 20 18:18:37 2021] ***
+compiled with version: 9.3.0 on 20 February 2021 08:56:51
+os: Linux-5.4.72-microsoft-standard-WSL2 #1 SMP Wed Oct 28 23:40:43 UTC 2020
+nodename: DESKTOP-HS12KLC
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/python/.virtualenvs/dailyfresh/dailyfresh
+writing pidfile to uwsgi2.pid
+detected binary path: /home/python/.virtualenvs/dailyfresh/bin/uwsgi
+chdir() to /home/python/.virtualenvs/dailyfresh/dailyfresh
+your processes number limit is 24996
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.26.4.15:8081 fd 3
+Python version: 3.6.8 (default, Feb 10 2021, 14:46:03)  [GCC 9.3.0]
+PEP 405 virtualenv detected: /home/python/.virtualenvs/dailyfresh/
+Set PythonHome to /home/python/.virtualenvs/dailyfresh/
+Python main interpreter initialized at 0x55cbbd72a440
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55cbbd72a440 pid: 7685 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7685)
+spawned uWSGI worker 1 (pid: 7689, cores: 2)
+spawned uWSGI worker 2 (pid: 7690, cores: 2)
+spawned uWSGI worker 3 (pid: 7692, cores: 2)
+spawned uWSGI worker 4 (pid: 7695, cores: 2)
+[pid: 7695|app: 0|req: 1/1] 172.26.0.1 () {42 vars in 891 bytes} [Sat Feb 20 18:19:48 2021] GET /goods/8 => generated 10110 bytes in 408 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
